@@ -1,0 +1,49 @@
+main {
+    height: 600px;
+    width: 600px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.content {
+    background-color: cornsilk;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+   /* background-color: crimson; */
+    flex: 2;
+}
+
+.input {
+    background-color: darkgrey;
+    flex: 1;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search,
+.lucky {
+    flex: 1;
+    margin: 2px;
+}
+
+.space {
+    flex: 3;
+}
+
+.searchbar {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
