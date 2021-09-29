@@ -4,7 +4,8 @@ main {
     background-color: blueviolet;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+
 }
 
 .content {
@@ -13,42 +14,36 @@ main {
     width: 300px;
     display: flex;
     flex-direction: column;
-
 }
 
 .logo-container {
-   /* background-color: crimson; */
+    /* background-color: crimson; */
     flex: 2;
+    margin: auto;
+
 }
 
-.logo {
-    display: block;
+.input-container {
+    flex: 1;
     margin: auto;
 }
 
-.input {
-    background-color: darkgrey;
-    flex: 1;
-}
-
-.buttons {
+.button-container {
+    background-color: darkorange;
     flex: 1;
     display: flex;
-    align-items: center;
 }
 
-.search,
-.lucky {
+.search-container,
+.lucky-container {
     flex: 1;
-    margin: 2px;
+    margin: 3px;
+}
+
+.search-container {
+    background-color: blue;
 }
 
 .space {
-    flex: 3;
-}
-
-.searchbar {
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
+    flex: 10;
 }
