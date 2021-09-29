@@ -16,9 +16,14 @@ main {
 
 }
 
-.logo {
+.logo-container {
    /* background-color: crimson; */
     flex: 2;
+}
+
+.logo {
+    display: block;
+    margin: auto;
 }
 
 .input {
@@ -44,6 +49,6 @@ main {
 
 .searchbar {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 15px;
 }
